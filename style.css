@@ -1,0 +1,47 @@
+body{
+    background-color: #F3F598;
+}
+.entete{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid black 1px;
+    margin-bottom: 50px;
+}
+aside{
+    width: 15%;
+    background-color: #B6F4AA;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.menu{
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.categorie{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.presentation{
+    position: relative;
+    width: 70%;
+    height: 600px;
+    margin-left: 20%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding-inline-start: 0px;
+}
+.lienfooter{
+    width: 15%;
+}
