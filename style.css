@@ -1,5 +1,5 @@
 body{
-    background-color: #eff5705c;
+    background-color: #faff931f;
 }
 
 .entete{
@@ -18,8 +18,13 @@ body{
 h1{
     width: 80%;
 }
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
 aside{
-    width: 15%;
+    width: 20%;
     border-radius: 25px;
     display: flex;
     justify-content: center;
@@ -32,14 +37,19 @@ aside{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 65%;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .categorie{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 50px;
-    background-color: #b6f4aa82;
-    border-radius: 25px;
+    background-color: #b6f4aabf;
+    border-radius: 10px;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -56,4 +66,44 @@ aside{
 }
 .lienfooter{
     width: 15%;
+}
+.trombi{
+    height: 100%;
+}
+.trombinoscope{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.membre{
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    width: 30%;
+    justify-content: center;
+}
+.imagetrombi{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.statut{
+    display: flex;
+    justify-content: center;
+}
+.inscription{
+    display: flex;
+    flex-direction: column;
+}
+.localisation{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 250px;
+    margin-left: 50%;
+    border: solid black 1px;
 }
