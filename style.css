@@ -17,10 +17,23 @@ body{
 h1{
     width: 80%;
 }
+.banniere{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center
+}
+.banniereimg{
+    margin: 90px 0px 0px 0px;
+    width: 100%;
+}
 h2{
     display: flex;
     justify-content: center;
-    font-size: 50px;
+    font-size: 40px;
 }
 aside{
     width: 20%;
@@ -29,6 +42,7 @@ aside{
     justify-content: center;
     align-items: center;
     position: absolute;
+    margin-top: 50px;
 }
 .menu{
     padding-inline-start: 0px;
@@ -37,10 +51,13 @@ aside{
     justify-content: center;
     align-items: center;
     width: 65%;
+    margin-top: 80px;
 }
 a{
     text-decoration: none;
     color: black;
+    font-size: 20px;
+    width: 100%;
 }
 .categorie{
     display: flex;
@@ -56,34 +73,74 @@ a{
     position: relative;
     width: 70%;
     height: 600px;
-    margin-left: 20%;
+    margin-left: 22%;
+    margin-top: 50px;
+}
+.article1{
+    padding: 30px;
+    box-shadow: -20px 10px 10px 10px #b6f4aabf;
+    margin-bottom: 50px;
+    width: 70%;
+}
+.article2{
+    padding: 30px;
+    box-shadow: 20px 10px 10px 10px #b6f4aabf;
+    margin-bottom: 50px;
+    width: 70%;
+    margin-left: 30%;
+}
+.soustitre{
+    justify-content: flex-start;
+    font-size: 25px;
+}
+.texte{
+    font-size: 20px;
 }
 h5{
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 1px;
 }
 footer{
     display: flex;
     flex-direction: column;
+    border-top: #b6f4aabf thick double;
 }
 .footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 50%;
+    padding-inline-start: 0px;
+    border-right: black solid 1px;
+}
+.footer2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-inline-start: 0px;
 }
 .lienexterne{
     display: flex;
 }
 .lienfooter{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     font-size: 20px;
+    margin-right: 20px;
+}
+.lienfooter2{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    margin-left: 20px;
+
 }
 .trombi{
     height: 100%;
+    min-height: 750px;
 }
 .trombinoscope{
     display: flex;
@@ -118,7 +175,6 @@ h3{
     display: flex;
     flex-direction: column;
     width: 50%;
-    height: 250px;
     margin-left: 50%;
 }
 .tableau{
