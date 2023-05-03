@@ -12,7 +12,7 @@ body{
     margin-bottom: 50px;
 }
 .logofusion{
-    width: 10%;
+    width: 5%;
 }
 h1{
     width: 80%;
@@ -21,7 +21,7 @@ h1{
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 200px;
+    height: 300px;
     overflow: hidden;
     align-content: center;
     justify-content: center
@@ -42,7 +42,6 @@ aside{
     justify-content: center;
     align-items: center;
     position: absolute;
-    margin-top: 50px;
 }
 .menu{
     padding-inline-start: 0px;
@@ -51,7 +50,6 @@ aside{
     justify-content: center;
     align-items: center;
     width: 65%;
-    margin-top: 80px;
 }
 a{
     text-decoration: none;
@@ -78,16 +76,23 @@ a{
 }
 .article1{
     padding: 30px;
-    box-shadow: -20px 10px 10px 10px #b6f4aabf;
     margin-bottom: 50px;
-    width: 70%;
+    display: flex;
 }
 .article2{
     padding: 30px;
-    box-shadow: 20px 10px 10px 10px #b6f4aabf;
     margin-bottom: 50px;
-    width: 70%;
-    margin-left: 30%;
+    margin-left: 35%;
+}
+.zone-texte{
+    min-width: 65%;
+    max-width: 65%;
+    padding: 2%;
+    box-shadow: -20px 10px 10px 10px #b6f4aabf;
+}
+.zone-texte2{
+    padding: 2%;
+    box-shadow: 20px 10px 10px 10px #b6f4aabf;
 }
 .soustitre{
     justify-content: flex-start;
@@ -95,6 +100,9 @@ a{
 }
 .texte{
     font-size: 20px;
+}
+.image-article{
+    width: 30%;
 }
 h5{
     display: flex;
@@ -106,6 +114,7 @@ footer{
     display: flex;
     flex-direction: column;
     border-top: #b6f4aabf thick double;
+    margin-top: 50px;
 }
 .footer{
     display: flex;
@@ -140,7 +149,7 @@ footer{
 }
 .trombi{
     height: 100%;
-    min-height: 750px;
+    min-height: 650px;
 }
 .trombinoscope{
     display: flex;
@@ -167,15 +176,40 @@ h3{
     display: flex;
     justify-content: center;
 }
-.inscription{
+.contact{
+    box-shadow: 20px 1px 10px 10px #b6f4aabf;
+    border-radius: 10px;
+}
+
+.formulaireplan{
+    font-size: 20px;
     display: flex;
-    flex-direction: column;
+    align-items: center;
+}
+.inscription{
+    font-size: 20px;
+    padding: 1%;
+}
+.fichier-inscription{
+    display: flex;
+    justify-content: center;
+}
+.formulaire{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    background-color: #b6f4aabf;
+    border-radius: 10px;
+    width: 50%;
 }
 .localisation{
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 50%;
+}
+.localisationimg{
+    padding-right: 10%;
 }
 .tableau{
     display: flex;
@@ -197,11 +231,11 @@ h3{
     justify-content: center;
 }
 .case2{
-display: flex;
-width: 20%;
-height: 100px;
-border: solid 1px;
-align-items: center;
+    display: flex;
+    width: 20%;
+    height: 100px;
+    border: solid 1px;
+    align-items: center;
     justify-content: center;
 }
 .case3{
@@ -211,4 +245,31 @@ align-items: center;
     border: solid 1px;
     align-items: center;
     justify-content: center;
+}
+.fichier{
+    margin-left: 50%;
+}
+.liste-lexique{
+    list-style-type: none;
+}
+.ligne-definition{
+    height: 100px;
+    display: flex;
+    border: solid 1px;
+    justify-content: center;
+}
+.case1-definition{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    border-right: solid 1px;
+    justify-content: center;
+    align-items: center;
+}
+.case3-definition{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
