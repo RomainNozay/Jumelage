@@ -83,6 +83,7 @@ aside{
     justify-content: center;
     align-items: center;
     width: 65%;
+    box-shadow: 6px 5px 5px 0px #b6f4aabf;
 }
 a{
     text-decoration: none;
@@ -98,7 +99,7 @@ a{
     font-size: 30px;
 }
 .categorie:hover{
-    color: green;
+    color: #35d217bf;
 }
 .presentation{
     position: relative;
@@ -132,7 +133,8 @@ a{
     border-radius: 50px 0px 0px 50px;
 }
 .zone-texte:hover{
-    background-color: #f5f5525c;
+    background: rgb(235,246,44);
+    background: linear-gradient(117deg, rgba(235,246,44,1) 3%, rgba(247,245,58,0.7820378151260504) 48%, rgba(245,243,35,1) 100%);
 }
 .zone-texte2{
     padding: 2%;
@@ -142,6 +144,10 @@ a{
     padding: 2%;
     box-shadow: 20px 10px 10px 10px #b6f4aabf;
     border-radius: 0px 50px 50px 0px;
+}
+.zone-texte2P:hover{
+    background: rgb(235,246,44);
+    background: linear-gradient(117deg, rgba(235,246,44,1) 3%, rgba(247,245,58,0.7820378151260504) 48%, rgba(245,243,35,1) 100%);
 }
 .soustitre{
     justify-content: flex-start;
@@ -239,6 +245,7 @@ h3{
     font-size: 20px;
     display: flex;
     align-items: center;
+    height: 555px;
 }
 .inscription{
     font-size: 20px;
@@ -253,9 +260,12 @@ h3{
     justify-content: center;
     align-items: center;
     height: 50px;
-    background-color: #b6f4aabf;
     border-radius: 10px;
     width: 50%;
+}
+.formulaire:hover{
+    background: rgb(243,254,56);
+    background: linear-gradient(117deg, rgba(243,254,56,1) 3%, rgba(224,247,58,0.7820378151260504) 48%, rgba(223,245,35,1) 100%);
 }
 .localisation{
     display: flex;
@@ -309,14 +319,14 @@ h3{
 .ligne-definition{
     height: 100px;
     display: flex;
-    border: solid 1px;
+    border: solid 1px  #b6f4aabf;
     justify-content: center;
 }
 .case1-definition{
     width: 33%;
     height: 100%;
     display: flex;
-    border-right: solid 1px;
+    border-right: solid 1px  #b6f4aabf;
     justify-content: center;
     align-items: center;
 }
