@@ -88,7 +88,7 @@ aside{
     justify-content: center;
     align-items: center;
     width: 65%;
-    box-shadow: 6px 5px 5px 0px #b6f4aabf;
+    box-shadow: 6px 5px 5px 0px #2ab310bf;
 }
 a{
     text-decoration: none;
@@ -104,7 +104,7 @@ a{
     font-size: 30px;
 }
 .categorie:hover{
-    color: #35d217bf;
+    color: #2ab310bf;
 }
 .presentation{
     position: relative;
@@ -322,9 +322,9 @@ h3{
     list-style-type: none;
 }
 .ligne-definition{
-    height: 100px;
+    height: 70px;
     display: flex;
-    border: solid 1px  #b6f4aabf;
+    border: solid 1px  #2ab310bf;
     justify-content: center;
 }
 .case1-definition{
