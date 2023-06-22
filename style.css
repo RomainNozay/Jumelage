@@ -365,8 +365,10 @@ h3{
     padding: 30px;
     margin-bottom: 50px;
     display: flex;
+    width: 97%;
 }
 .zone-texteH{
+    width: 100%;
     padding: 2%;
     box-shadow: -9px 10px 10px 10px #b6f4aabf;
     border-radius: 50px 50px 50px 50px;
