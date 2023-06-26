@@ -1,11 +1,16 @@
 body{
    background-color: white ;
    font-family: Arial, Helvetica, sans-serif;
+   margin: 0px;
+}
+header{
+    height: 550px;
 }
 .roumanie{
-    width: 50px;
+    width: 5%;
     position: absolute;
-    left: 96%;
+    left: 95%;
+    z-index: 2;
 }
 .entete{
     display: flex;
@@ -19,20 +24,18 @@ body{
 .entete2{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
     flex-direction: column-reverse;
     animation: entete2 2s forwards;
+    position: relative;
+    bottom: 105%;
+    z-index: 1;
 }
 @keyframes entete2{
     0%{
-        transform: translatey(0px);
+        transform: translateX(-1550px);
     }
     100% {
-        transform: translatey(-550px)
+        transform: translateX(0px)
     }
 }
 .logofusion{
@@ -43,9 +46,10 @@ body{
 }
 
 h1{
-    width: 100%;
+    display: flex;
+    align-items: center;
     text-align: center;
-    font-size: 80px;
+    font-size: 70px;
 }
 .banniere{
     display: flex;
@@ -63,7 +67,9 @@ h1{
     height: 600px;
     overflow: hidden;
     align-content: center;
-    justify-content: center 
+    justify-content: center;
+    position: relative;
+    bottom: 30%;
 }
 .banniereimg{
     margin: 220px 0px 0px 0px;
@@ -73,6 +79,7 @@ h2{
     display: flex;
     justify-content: center;
     font-size: 60px;
+    margin-top: 0px;
 }
 aside{
     width: 20%;
@@ -222,10 +229,12 @@ footer{
 }
 .trombi{
     height: 100%;
-    min-height: 875px;
+    min-height: 950px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    z-index: 2;
 }
 .trombinoscope{
     display: flex;
@@ -275,9 +284,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50px;
+    height: 75px;
     border-radius: 10px;
-    width: 50%;
+    width: 150px;
+    text-align: center;
 }
 .formulaire:hover{
     background: rgb(243,254,56);
@@ -388,3 +398,11 @@ h3{
 .imageH{
     width: 33%;
 }
+@media screen and (max-width: 768px){
+    .menu{
+        box-shadow: 6px 5px 5px 0px black;
+    }
+
+
+}
+    
