@@ -104,6 +104,12 @@ a{
     font-size: 20px;
     width: 100%;
 }
+.page{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    width: 100%;
+}
 .categorie{
     display: flex;
     align-items: center;
@@ -399,8 +405,38 @@ h3{
     width: 33%;
 }
 @media screen and (max-width: 768px){
+    .entete2{
+        bottom: 100%;
+    }
+    h1{
+        font-size: 60px;
+    }
+    aside{
+        position: relative;
+        bottom: 100px;
+        width: 100%;
+    }
     .menu{
-        box-shadow: 6px 5px 5px 0px black;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .page{
+        width: 20%;
+    }
+    .categorie{
+        text-align: center;
+        font-size: 15px;
+        justify-content: center;
+        height: 40px;
+    }
+    .presentation{
+        width: 100%;
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .trombi{
+        min-height: 0px;
     }
 
 
