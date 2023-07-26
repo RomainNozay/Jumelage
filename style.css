@@ -101,7 +101,6 @@ aside{
 a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
     width: 100%;
 }
 .page{
@@ -411,6 +410,7 @@ h3{
     .banniere2{
         bottom: 65%;
         height: 675px;
+        margin-top: 10px;
     }
     .banniereimg{
         margin-top: 300px;
@@ -447,13 +447,66 @@ h3{
         min-height: 0px;
     }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
+    body{
+        display: flex;
+        flex-direction: column;
+    }
     .banniere2{
         bottom:70%;
         height:680px;
+        margin-top: 0px;
     }
     h1{
         font-size: 30px;
+    }
+    aside{
+        bottom: 350px;
+    }
+    .categorie{
+        font-size: 11px;
+    }
+    .presentation{
+        bottom: 350px;
+    }
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    footer{
+        position: relative;
+        bottom: 350px;
+    }
+    .footer{
+        text-align: center;
+    }
+    .footer2{
+        text-align: center;
+    }
+    .lienfooter{
+        margin-right: 0px;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .lienfooter2{
+        margin-left: 0px;
+        justify-content: center;
+        font-size: 15px;
+    }
+    .article1H{
+        padding: 0px;
+        width: 90%;
+        margin-bottom: 5px;
+        margin-top: 20px;
+    }
+    .soustitreH{
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .texteH{
+        font-size: 15px;
+        text-align: center;
     }
 }
     
