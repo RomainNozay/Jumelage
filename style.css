@@ -492,6 +492,9 @@ h3 {
 .imageH {
     width: 33%;
 }
+.blog{
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 768px) {
     .entete2 {
