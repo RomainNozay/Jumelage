@@ -37,7 +37,7 @@ header {
     flex-direction: column-reverse;
     animation: entete2 2s forwards;
     position: relative;
-    bottom: 135%;
+    bottom: 150%;
     z-index: 1;
     color: white;
 }
@@ -534,7 +534,7 @@ h3 {
     }
 
     aside {
-        bottom: 35%;
+        bottom: 50%;
         width: 100%;
     }
 
@@ -592,7 +592,7 @@ h3 {
     }
 
     aside {
-        bottom: 315px;
+        bottom: 60%;
     }
 
     .categorie {
@@ -654,13 +654,13 @@ h3 {
 
 @media screen and (max-width: 376px) {
     aside {
-        bottom: 333px;
+        bottom: 60%;
     }
 }
 
 @media screen and (max-width: 320px) {
     aside {
-        bottom: 350px;
+        bottom: 60%;
     }
 
     .presentation {
